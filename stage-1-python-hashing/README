@@ -1,0 +1,23 @@
+# Stage 1 – Password Hashing with Pepper (Python)
+
+## Overview
+This stage demonstrates a basic password hashing mechanism implemented in Python.  
+Before hashing, a custom peppering technique is applied to the password to add an extra layer of security.
+
+## Peppering Logic
+A numeric pepper is inserted into the password after every 3rd character, starting from 0 and incrementing sequentially.
+
+### Example
+- Original password:  
+  `admin@123`
+
+- After applying pepper:  
+  `0adm4in@8123`
+
+The modified password is then converted into an MD5 hash.
+
+## Purpose
+This stage is intended to demonstrate:
+- Basic password transformation techniques
+- The concept of peppering in authentication systems
+- Hash generation using MD5 (educational use only)
