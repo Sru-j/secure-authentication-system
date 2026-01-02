@@ -4,7 +4,7 @@ def add_pepper(password):
     """
     Adds a number BEFORE every 3 characters.
     Example:
-    admin@123 -> 0adm4in@812312
+    admin@123 -> 0adm4in@8123
     """
     peppered_password = ""
     pepper_value = 0
