@@ -21,3 +21,6 @@ This stage is intended to demonstrate:
 - Basic password transformation techniques
 - The concept of peppering in authentication systems
 - Hash generation using MD5 (educational use only)
+
+#OUTPUT :
+[Password hashing output](images/output.png)
