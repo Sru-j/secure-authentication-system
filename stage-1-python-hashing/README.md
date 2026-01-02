@@ -9,10 +9,10 @@ A numeric pepper is inserted into the password after every 3rd character, starti
 
 ### Example
 - Original password:  
-  `admin@123`
+  admin@123
 
 - After applying pepper:  
-  `0adm4in@8123`
+  0adm4in@8123
 
 The modified password is then converted into an MD5 hash.
 
